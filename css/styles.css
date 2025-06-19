@@ -251,7 +251,7 @@ button {
 }
 .info-one {
   /* width: calc((100% - 72px) / 4); */
-  width: 100%;
+  min-width: 288px;
 }
 
 .team-section {
@@ -407,6 +407,12 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.portfolio-title {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 72px 24px;
 }
 
 .page-footer {
@@ -966,6 +972,9 @@ button {
     column-gap: 24px;
     row-gap: 72px;
   }
+  .portfolio-info {
+    max-width: 356px;
+  }
   .mobile-menu {
     display: none;
   }
@@ -1078,6 +1087,7 @@ button {
   }
   .info-one {
     width: calc((100% - 72px) / 4);
+    min-width: 264px;
   }
   .team-section {
     background-color: #f4f4fd;
